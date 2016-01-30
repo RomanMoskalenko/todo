@@ -1,6 +1,6 @@
 'use strict';
 
-todomvc.factory('todoStorage', ['$http', function ($http) {
+todomvc.factory('todoStorage', function () {
 	var LOAD_PATH = '/todo/back-end/load.php';
 
 	return {
@@ -58,6 +58,6 @@ todomvc.factory('todoStorage', ['$http', function ($http) {
 		  }
 		}
 		return hash;
-	}
+	};
 
-}]);
+});
