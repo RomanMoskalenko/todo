@@ -1,0 +1,1 @@
+todomvc = angular.module('todomvc', []);

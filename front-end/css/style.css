@@ -1,0 +1,61 @@
+body {
+	font: normal 30px/1 Tahoma, Arial, sans-serif;
+}
+
+.completed {
+	color: green;
+	opacity: 0.4;
+}
+
+.edit-form {
+	display: none;
+}
+
+.editing {
+	color: orange;
+}
+
+.editing .edit-form {
+	display: block;
+}
+
+#todo-form input {
+	outline: none;
+	width: 100%;
+	border: none;
+	border-bottom: solid #444 1px;
+	height: 50px;
+	color: #444;
+	margin: 20px 0 0 0;
+	font: normal 30px/1 Tahoma, Arial, sans-serif;
+}
+
+#todo-form input::-webkit-input-placeholder {color:#aaa;}
+#todo-form input::-moz-placeholder          {color:#aaa;}
+#todo-form input:-moz-placeholder           {color:#aaa;}
+#todo-form input:-ms-input-placeholder      {color:#aaa;}
+
+.wrap {
+	width: 960px;
+	margin: auto;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	font: normal 20px/1 Tahoma, Arial, sans-serif;
+	margin: 20px 0;
+}
+
+.del {
+	float: right;
+	color: red;
+}
+
+.del:hover {
+	cursor: pointer;
+}
